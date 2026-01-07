@@ -9,6 +9,7 @@
 
 struct fusionx_attributes {
     int kgsl_skip_zeroing;
+    int avoid_dirty_pte;
 };
 
 extern struct fusionx_attributes fusionx_data;
