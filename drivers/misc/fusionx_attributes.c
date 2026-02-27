@@ -45,7 +45,7 @@ static void fusionx_rebuild_blocklist(char *buf)
 			strlen(fusionx_blocked[fusionx_blocked_cnt]);
 
 		pr_alert("FUSIONX: blocking '%s'\n",
-			 fusionx_blocked[FUSIONX_blocked_cnt]);
+			 fusionx_blocked[fusionx_blocked_cnt]);
 		fusionx_blocked_cnt++;
 	}
 	pr_alert("FUSIONX: total blocked apps = %d\n", fusionx_blocked_cnt);
